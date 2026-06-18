@@ -57,7 +57,7 @@ tokio              = "1.43.0"
 toml               = "0.8.19"
 tracing            = "0.1.41"
 tracing-appender   = "0.2.3"
-tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
 reqwest            = { version = "0.11", features = ["blocking", "json"] }
 
 [workspace.dependencies.malachitebft-app]
